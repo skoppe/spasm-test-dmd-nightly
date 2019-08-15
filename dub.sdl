@@ -1,0 +1,13 @@
+name "spasm-test-dmd-nightly"
+description "Project to compile spasm on dmd"
+authors "Sebastiaan Koppe"
+copyright "Copyright © 2019, Sebastiaan Koppe"
+license "MIT"
+dependency "spasm" version=">=0.2.0-beta.5"
+dflags "-betterC" "-dip1000"
+
+buildRequirements "allowWarnings"
+
+toolchainRequirements dmd=">=2.080.0" gdc="no" ldc="no"
+
+subConfiguration "spasm" "dmd"

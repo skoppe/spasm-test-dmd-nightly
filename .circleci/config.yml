@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  dmd-nightly:
+    docker:
+      - image: dlang2/dmd-circleci:latest
+    steps:
+      - checkout
+      - run:
+          name: build dmd latest
+          command: make
+workflows:
+  version: 2
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 6 * * *"
+          # filters:
+          #   branches:
+          #     only:
+          #       - master
+    jobs:
+      - dmd-nightly

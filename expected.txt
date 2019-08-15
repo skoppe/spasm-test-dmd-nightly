@@ -1,0 +1,12 @@
+/dlang/dmd-2.087.0/linux/bin64/../../src/druntime/import/object.d:4847: error: undefined reference to '_D4core8internal6string17TempStringNoAlloc3getMFNaNbNiNjNfZAa'
+/dlang/dmd-2.087.0/linux/bin64/../../src/druntime/import/object.d:4849: error: undefined reference to '_D4core8internal6string17TempStringNoAlloc3getMFNaNbNiNjNfZAa'
+/root/.dub/packages/stdx-allocator-3.1.0-beta.2/stdx-allocator/source/stdx/allocator/building_blocks/segregator.d:226: error: undefined reference to '_D3std8typecons7Ternary6__ctorMFNaNbNcNiNfxSQBqQBpQBjZSQCbQCaQBu'
+/dlang/dmd-2.087.0/linux/bin64/../../src/phobos/std/typecons.d:9061: error: undefined reference to '_D3std8typecons7Ternary4makeFNaNbNiNfhZSQBmQBlQBf'
+/root/.dub/packages/stdx-allocator-3.1.0-beta.2/stdx-allocator/source/stdx/allocator/building_blocks/segregator.d:226: error: undefined reference to '_D3std8typecons7Ternary6__ctorMFNaNbNcNiNfxSQBqQBpQBjZSQCbQCaQBu'
+/root/.dub/packages/stdx-allocator-3.1.0-beta.2/stdx-allocator/source/stdx/allocator/building_blocks/segregator.d:226: error: undefined reference to '_D3std8typecons7Ternary6__ctorMFNaNbNcNiNfxSQBqQBpQBjZSQCbQCaQBu'
+/root/.dub/packages/stdx-allocator-3.1.0-beta.2/stdx-allocator/source/stdx/allocator/building_blocks/segregator.d:226: error: undefined reference to '_D3std8typecons7Ternary6__ctorMFNaNbNcNiNfxSQBqQBpQBjZSQCbQCaQBu'
+/root/.dub/packages/stdx-allocator-3.1.0-beta.2/stdx-allocator/source/stdx/allocator/building_blocks/bitmapped_block.d:1236: error: undefined reference to '_memset64'
+/root/.dub/packages/stdx-allocator-3.1.0-beta.2/stdx-allocator/source/stdx/allocator/building_blocks/bitmapped_block.d:1209: error: undefined reference to '_memset64'
+collect2: error: ld returned 1 exit status
+Error: linker exited with status 1
+dmd failed with exit code 1.
